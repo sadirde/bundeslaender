@@ -1,0 +1,43 @@
+ul.states,
+ul.persons {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+}
+
+ul.states li {
+	border: .625em solid #efefee;
+	cursor: pointer;
+	margin-bottom: 1em;
+	padding: .625em;
+	width: 32%;
+}
+
+ul.states li:hover {
+	background-color: #efefee;
+}
+
+ul.persons {
+	gap: .625em;
+	justify-content: left;
+}
+
+ul.persons li {
+	background-color: #ddd;
+	cursor: pointer;
+	padding: .5em;
+	text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+	ul.states li {
+		width: 49%;
+	}
+}
+
+@media (max-width: 500px) {
+	ul.states li {
+		width: 100%;
+	}
+}

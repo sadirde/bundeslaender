@@ -1,0 +1,13 @@
+h1 {
+	background-color: #ddd;
+	color: #666;
+	font-size: 2rem;
+	margin: .5em 0;
+	padding: .3125em .625em .21875em .625em;
+	text-transform: uppercase;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 64em;
+}

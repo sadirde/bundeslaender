@@ -1,0 +1,14 @@
+<!-- State list -->
+<ul class="states">
+    <li *ngFor="let state of states" [routerLink]="state.url">
+        <app-state-tile
+            [state]="state.name"
+            [schoolCount]="state.schoolCount">
+        </app-state-tile>
+    </li>
+</ul>
+
+<!-- Person index -->
+<ul class="persons">
+    <li *ngFor="let letter of persons">{{ letter }}</li>
+</ul>
